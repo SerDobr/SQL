@@ -25,7 +25,7 @@ public class VerificationPage {
 
     public DashboardPage validVerify(String verificationCode) {
         verify(verificationCode);
-        return page(DashboardPage.class);
+        return new DashboardPage();
 
     }
 
